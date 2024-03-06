@@ -1,0 +1,157 @@
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #1A8D5F;
+}
+.nav1div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.nav1div div:nth-child(1){
+    font-size: 28px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 500;
+}
+.nav1div div:nth-child(2){
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.nav1div div:nth-child(2) a{
+    text-decoration: none;
+    color: white;
+}
+.nav1div div:nth-child(2) i{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.nav1div div, i{
+    color: white;
+}
+
+
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+
+.font_awesome{
+    color: #7d7d7d;
+    margin-right: 15px;
+}
+.section1{
+    width: 20%;
+    padding: 10px;
+}
+.section1divs{
+    display: flex;
+    padding: 15px;
+}
+.section1divs a{
+    text-decoration: none;
+}
+.section1div2{
+    color: #494949;
+    font-weight: 500;
+}
+.section1divs:hover{
+    border-left: 3px solid rgb(0, 129, 77);
+    cursor: pointer;
+    background-color: #D0E8DF;
+    border-radius: 3px;
+    .font_awesome{
+        color: rgb(0, 129, 77);
+    }
+    .section1div2{
+        color: rgb(0, 129, 77);
+    }
+}
+
+
+
+.section2{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+#section2div1{
+    display: flex;
+    margin: 5px 0px 20px 0px;
+    align-items: center;
+}
+#section2div1 i{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#section2div1 div{
+    font-size: 22px;
+    font-weight: 500;
+}
+#section2div2{
+    border-radius: 5px;
+    background-color: white;
+}
+#section2divs2{
+    padding: 10px;
+}
+#section2divs2 form label,
+.formdiv div:nth-child(1){
+    font-weight: 600;
+}
+#fullname{
+    margin-bottom: 15px;
+    background-color: rgb(185, 240, 197);
+    padding: 5px 8px;
+    border-radius: 7px;
+    border: none;
+}
+#section2divs2 form button{
+    border: none;
+    background-color: rgb(73, 167, 93);
+    color: white;
+    padding: 4px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.formdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inputFieldsContainer input{
+    background-color: rgb(185, 240, 197);
+    padding: 5px 8px;
+    border-radius: 7px;
+    border: none;
+    margin: 0px 10px 10px 100px;
+}
+.totalFieldsContainers{
+    display: flex;
+}
+.savebutton{
+    text-align: end;
+}
+.formdiv1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(73, 167, 93);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.formdiv1 i{
+    margin-right: 5px;
+}

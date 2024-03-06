@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+
+main{
+    background: rgb(150,221,188);
+    background: linear-gradient(90deg, rgba(150,221,188,1) 0%, rgba(139,255,183,1) 43%, rgba(169,236,169,1) 100%);
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 45%;
+    margin: 20px;
+}
+.section1div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 26px;
+    background-color: white;
+}
+.section1div2{
+    width: 80%;
+    padding: 60px;
+}
+.section1div2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: rgb(23, 196, 60);
+}
+.section1div2 form{
+    display: flex;
+    flex-direction: column;
+}
+.section1div2 form label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.section1div2 form input{
+    margin-bottom: 15px;
+    background-color: rgb(185, 240, 197);
+    padding: 5px 8px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+}
+.section1div2 form button{
+    width: 40%;
+    margin: 20px auto;
+    border: none;
+    background-color: rgb(73, 167, 93);
+    color: white;
+    padding: 7px 0px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}

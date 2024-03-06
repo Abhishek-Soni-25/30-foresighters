@@ -1,0 +1,168 @@
+[
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c43"
+      },
+      "product_id": 1,
+      "product_name": "Rice",
+      "category": "Grains",
+      "quantity_in_stock": 100,
+      "unit_price": 50,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c44"
+      },
+      "product_id": 2,
+      "product_name": "Wheat Flour",
+      "category": "Grains",
+      "quantity_in_stock": 80,
+      "unit_price": 40,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c45"
+      },
+      "product_id": 3,
+      "product_name": "Sugar",
+      "category": "Staples",
+      "quantity_in_stock": 120,
+      "unit_price": 30,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c46"
+      },
+      "product_id": 4,
+      "product_name": "Salt",
+      "category": "Staples",
+      "quantity_in_stock": 90,
+      "unit_price": 20,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c47"
+      },
+      "product_id": 5,
+      "product_name": "Milk",
+      "category": "Dairy",
+      "quantity_in_stock": 50,
+      "unit_price": 25,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c48"
+      },
+      "product_id": 6,
+      "product_name": "Tea",
+      "category": "Beverages",
+      "quantity_in_stock": 70,
+      "unit_price": 10,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c49"
+      },
+      "product_id": 7,
+      "product_name": "Coffee",
+      "category": "Beverages",
+      "quantity_in_stock": 60,
+      "unit_price": 15,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c50"
+      },
+      "product_id": 8,
+      "product_name": "Pulses",
+      "category": "Staples",
+      "quantity_in_stock": 110,
+      "unit_price": 35,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c51"
+      },
+      "product_id": 9,
+      "product_name": "Cooking Oil",
+      "category": "Grocery",
+      "quantity_in_stock": 85,
+      "unit_price": 60,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c52"
+      },
+      "product_id": 10,
+      "product_name": "Bread",
+      "category": "Bakery",
+      "quantity_in_stock": 40,
+      "unit_price": 20,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c53"
+      },
+      "product_id": 11,
+      "product_name": "Eggs",
+      "category": "Dairy",
+      "quantity_in_stock": 75,
+      "unit_price": 5,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c54"
+      },
+      "product_id": 12,
+      "product_name": "Toothpaste",
+      "category": "Personal Care",
+      "quantity_in_stock": 55,
+      "unit_price": 30,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c55"
+      },
+      "product_id": 13,
+      "product_name": "Soap",
+      "category": "Personal Care",
+      "quantity_in_stock": 65,
+      "unit_price": 25,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c56"
+      },
+      "product_id": 14,
+      "product_name": "Shampoo",
+      "category": "Personal Care",
+      "quantity_in_stock": 45,
+      "unit_price": 40,
+      "date_of_stock": "2024-03-01"
+    },
+    {
+      "_id": {
+        "$oid": "61fb223e2684f1e785f24c57"
+      },
+      "product_id": 15,
+      "product_name": "Potatoes",
+      "category": "Vegetables",
+      "quantity_in_stock": 95,
+      "unit_price": 10,
+      "date_of_stock": "2024-03-01"
+    }
+  ]
+  

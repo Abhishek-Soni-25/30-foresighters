@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForeSighter | Sales</title>
+    <link rel="stylesheet" href="/css/sales.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <style>
+        #myChart {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="nav1div">
+                <div>ForeSighter</div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="" class="Ur_Name">Your Name</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="section1div">
+                <div class="section1divs">
+                    <div><i class="fa-solid fa-house font_awesome"></i></div>
+                    <a href="/index">
+                        <div class="section1div2">Home</div>
+                    </a>
+                </div>
+                <div class="section1divs">
+                    <div><i class="fa-solid fa-cart-shopping font_awesome"></i></div>
+                    <a href="/dashboard">
+                        <div class="section1div2">Orders</div>
+                    </a>
+                </div>
+                <div class="section1divs">
+                    <div><i class="fa-solid fa-box font_awesome"></i></div>
+                    <a href="/inventory">
+                        <div class="section1div2">Inventory</div>
+                    </a>
+                </div>
+                <div class="section1divs">
+                    <div><i class="fa-solid fa-chart-pie font_awesome"></i></div>
+                    <a href="/sales">
+                        <div class="section1div2">Sales</div>
+                    </a>
+                </div>
+                <div class="section1divs">
+                    <div><i class="fa-solid fa-robot font_awesome"></i></div>
+                    <a href="">
+                        <div class="section1div2">Prediction</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="sales">
+                <canvas id="myChart"></canvas>
+            </div>
+        </section>
+    </main>
+    <script>
+        var xValues = ["Milk", "Bread", "Eggs", "Fruit", "Vegetables", "Drinks", "Snacks", "Cereals"];
+        var yValues = [20, 30, 15, 10, 25, 18, 12, 20];
+        var barColors = [
+            "#b91d47",
+            "#00aba9",
+            "#2b5797",
+            "#e8c3b9",
+            "#1e7145",
+            "#f2711c",
+            "#767676",
+            "#FFD700"
+        ];
+    
+        new Chart("myChart", {
+            type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Sales of Grocery Items',
+                    fontSize: 18,
+                    fontColor: "#333",
+                    fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+                    fontStyle: "normal"
+                },
+                legend: {
+                    display: true,
+                    position: "bottom",
+                    labels: {
+                        fontSize: 14,
+                        fontColor: "#333",
+                        fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+                        fontStyle: "normal"
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
